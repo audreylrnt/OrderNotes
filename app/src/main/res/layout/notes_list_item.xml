@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:id="@+id/notesPlatform"
+        android:text="platform"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/notesNamaPembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama pembeli"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/notesPlatform"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/notesBarang"
+        android:text="barang yang dibeli"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/notesNamaPembeli"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/notesNoInvoice"
+        android:text="no invoice"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/notesBarang"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/notesTglOrder"
+        android:text="tanggal order"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/notesNoInvoice"/>
+</RelativeLayout>
